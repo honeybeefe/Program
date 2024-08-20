@@ -1037,11 +1037,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: eb35bf34cb0aca94b9b312eca5b17f05, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  buttonTexts: []
+  buttonTexts:
+  - {fileID: 1562366584}
+  - {fileID: 963664084}
+  - {fileID: 260702537}
   buttonNames:
-  - 
-  - 
-  - 
+  - New Game
+  - Continue
+  - Exit
 --- !u!4 &1477999651
 Transform:
   m_ObjectHideFlags: 0

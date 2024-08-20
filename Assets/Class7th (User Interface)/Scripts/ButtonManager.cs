@@ -11,11 +11,24 @@ public class ButtonManager : MonoBehaviour
 
     void Start()
     {
-        
+        for (int i= 0; i< buttonTexts.Length; i++)
+        {
+            buttonTexts[i].text = buttonNames[i];
+        }
     }
 
-    void Update()
+    public void NewGame()
     {
-        
+        Debug.Log("New Game");
+    }
+
+    public void Continue()
+    {
+        Debug.Log("Continue");
+    }
+
+    public void Exit()
+    {
+        Debug.Log("Exit");
     }
 }
