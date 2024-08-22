@@ -12,6 +12,8 @@ GameObject:
   - component: {fileID: 5357307812553177562}
   - component: {fileID: 5310138201265080251}
   - component: {fileID: 5129289458989294144}
+  - component: {fileID: -5372946636220484006}
+  - component: {fileID: 3585749560561966359}
   m_Layer: 0
   m_Name: Banana
   m_TagString: Untagged
@@ -105,3 +107,44 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.03776887, y: 0.077711895, z: 0.19450995}
   m_Center: {x: 0.0005739657, y: 0.012489049, z: 0.0012512021}
+--- !u!114 &-5372946636220484006
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4732085515073304157}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Delegates:
+  - eventID: 2
+    callback:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 3585749560561966359}
+          m_TargetAssemblyTypeName: Select, Assembly-CSharp
+          m_MethodName: OnEnter
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+--- !u!114 &3585749560561966359
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4732085515073304157}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 515e18a0a3590e747b5b9cd385a24fa0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

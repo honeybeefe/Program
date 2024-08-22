@@ -12,6 +12,8 @@ GameObject:
   - component: {fileID: 69998111519758280}
   - component: {fileID: 6554589374087004637}
   - component: {fileID: 2183106394114641060}
+  - component: {fileID: -4911248841152225205}
+  - component: {fileID: 8602116888495769544}
   m_Layer: 0
   m_Name: Tomato
   m_TagString: Untagged
@@ -105,3 +107,44 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.10615571, y: 0.1074813, z: 0.10749187}
   m_Center: {x: 0.00059085153, y: -0.0011803154, z: -0.00008767098}
+--- !u!114 &-4911248841152225205
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5052939206506248310}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Delegates:
+  - eventID: 2
+    callback:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 8602116888495769544}
+          m_TargetAssemblyTypeName: Select, Assembly-CSharp
+          m_MethodName: OnEnter
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+--- !u!114 &8602116888495769544
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5052939206506248310}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 515e18a0a3590e747b5b9cd385a24fa0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
